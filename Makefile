@@ -27,7 +27,7 @@ LIB :=          $(addprefix -L,$(LIBFLDRS))
 HFILES :=       $(foreach folder,$(INCFLDRS),$(wildcard $(folder)/*.hpp))
 SRC :=          $(foreach folder,$(SRCFLDRS),$(wildcard $(folder)/*.cpp))
 TESTSRC :=      $(foreach folder,$(TESTSRCFLDRS),$(wildcard $(folder)/*.cpp))
-LIBFILES :=     $(foreach folder,$(SRCFLDRS),$(wildcard $(folder)/*))
+LIBFILES :=     $(foreach folder,$(SRCFLDRS),$(wildcard $(folder)/*.a))
 
 ## Targets
 .PHONY : all
