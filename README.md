@@ -26,6 +26,8 @@ There are several features I plan to implement
 
 [ ] - casts
 
+[ ] - compilation, not interpretation
+
 ## Build system
 
 Just run `make`
