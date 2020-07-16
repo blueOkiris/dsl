@@ -30,6 +30,10 @@ TESTSRC :=      $(foreach folder,$(TESTSRCFLDRS),$(wildcard $(folder)/*.cpp))
 LIBFILES :=     $(foreach folder,$(SRCFLDRS),$(wildcard $(folder)/*))
 
 ## Targets
+.PHONY : all
+all : $(OBJNAME) $(OBJNAME)-tests
+	echo "Done."
+
 # Main compiler
 $(OBJNAME) : $(SRC) $(HFILES) $(LIBFILES)
 	mkdir -p obj
