@@ -43,3 +43,11 @@ Just run `make`
  - Static library files go in lib/
 
 To add external source/headers/lib, modify the \*FLDRS options in the Makefile
+
+## Dependencies
+
+ - gcc
+
+ - make
+
+ - gtest (`sudo pacman -S gtest` \|\| `sudo apt install libgtest-dev`)
