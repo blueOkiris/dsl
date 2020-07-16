@@ -12,21 +12,21 @@ My inspiration was the esolang "Emoji." It made me want to make a stack based la
 
 There are several features I plan to implement
 
-[ ] - pointers/references
+[-] - pointers/references
 
-[ ] - c structs
+[-] - c structs
 
-[ ] - simple stack manipulation
+[-] - simple stack manipulation
 
-[ ] - low level access/bindings to assembly or C or something
+[-] - low level access/bindings to assembly or C or something
 
-[ ] - modules
+[-] - modules
 
-[ ] - boolean types
+[-] - boolean types
 
-[ ] - casts
+[-] - casts
 
-[ ] - compilation, not interpretation
+[-] - compilation, not interpretation
 
 ## Build system
 
