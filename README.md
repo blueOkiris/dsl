@@ -31,3 +31,15 @@ There are several features I plan to implement
 ## Build system
 
 Just run `make`
+
+## File structure
+
+ - Source code (\*.cpp) files go in src/
+
+ - Source code *that is tests* goes in tests/ however
+
+ - Header files (\*.hpp) for the source files go in include/
+
+ - Static library files go in lib/
+
+To add external source/headers/lib, modify the \*FLDRS options in the Makefile
